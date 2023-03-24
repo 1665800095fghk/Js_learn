@@ -1,0 +1,14 @@
+{
+  "name": "js_lx",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.3.4",
+    "jquery": "^3.6.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.3"
+  }
+}
