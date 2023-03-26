@@ -4,10 +4,14 @@
 // TODO 装饰器
 // TODO 函数式编程
 
+// TODO Project
+
 // step_3
 // TODO jQuery源码
 // TODO ajax源码
 // TODO axios源码
+
+// TODO Project
 
 // step_4
 // TODO node.js
@@ -16,7 +20,9 @@
 // TODO TypeScript
 // TODO Rust
 
-// step_5
+// TODO Project
+
+// step_5(待定)
 // TODO 人月神话
 // TODO 算法与数据结构
 // TODO 软件工程

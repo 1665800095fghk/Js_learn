@@ -19,10 +19,10 @@ loadScript("/fghk/test_1.js", function (error, script) {
     loadScript("/fghk/test_2.js", function (error, script) {
       if (error) {
       } else {
+        
         // ...
       }
     });    
   }
 });
-
 // 这种方法是不好的，解决方法是使用 Promise
