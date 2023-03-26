@@ -38,7 +38,7 @@ function Rabbit_2(name) {
   Animal_2.call(this, name)
 }
 Rabbit_2.prototype = Animal_2.prototype;
-Rabbit_2.prototype.hide = function() {
+Rabbit_2.prototype.hide = function () {
   console.log(`${this.name} hides!`);
 }
 // new Rabbit_2("r1").run(12);
@@ -52,7 +52,7 @@ function f(phrase) {
     }
   }
 }
-class User extends f("Hello") {}
+class User_ extends f("Hello") { }
 // new User().sayHi();
 
 
@@ -75,7 +75,3 @@ class Rabbit_3 extends Animal_3 {
   }
 }
 // new Rabbit_3("sss").sayHi();
-
-let b = { a: 3 };
-let { a } = b;
-console.log(a);
