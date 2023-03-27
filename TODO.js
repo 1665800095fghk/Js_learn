@@ -1,7 +1,6 @@
 // step_2
-// TODO 现代Js 类继承中的进阶部分
+// TODO 浏览器
 // TODO 高阶函数
-// TODO 装饰器
 // TODO 函数式编程
 
 // TODO Project

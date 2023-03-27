@@ -39,6 +39,3 @@ let range = {
 // for (let i of range) {
 //   console.log(i);
 // }
-
-
-let map = new Map();
