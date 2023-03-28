@@ -7,7 +7,7 @@
 
 // step_3
 // TODO jQuery源码
-// TODO ajax源码
+// TODO ajax
 // TODO axios源码
 
 // TODO Project
