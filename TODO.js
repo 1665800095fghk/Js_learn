@@ -1,13 +1,11 @@
 // step_2
 // TODO 浏览器
-// TODO 高阶函数
-// TODO 函数式编程
+// TODO 现代 Js 教程
 
 // TODO Project
 
 // step_3
 // TODO jQuery源码
-// TODO ajax
 // TODO axios源码
 
 // TODO Project
