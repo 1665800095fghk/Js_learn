@@ -1,14 +1,8 @@
-// step_2
-// TODO 浏览器
-// TODO 现代 Js 教程
-
-// TODO Project
-
 // step_3
-// TODO jQuery源码
-// TODO axios源码
+// TODO 浏览器
 
-// TODO Project
+// step_3.5
+// TODO 现代 Js 教程 高阶部分
 
 // step_4
 // TODO node.js
@@ -16,8 +10,8 @@
 // TODO eslint
 // TODO TypeScript
 // TODO Rust
-
-// TODO Project
+// TODO jQuery源码
+// TODO axios源码
 
 // step_5(待定)
 // TODO 人月神话
