@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .tree span:hover {
+      font-weight: bold;
+    }
+    .tree span {
+      cursor: pointer;
+    }
+    </style>
+  </head>
+  <body>
+    <!-- 委托 -->
+    <div class="menu">
+      <button data-action="save">Save</button>
+      <button data-action="load">Load</button>
+      <button data-action="search">Search</button>
+    </div><hr>
+
+    <!-- 行为模式-计数器 -->
+    <div class="counters">
+      <input type="button" value="0" data-counter />
+      <input type="button" value="0" data-counter />
+      <input type="button" value="0" data-counter />
+    </div><hr>
+
+    <!-- 行为模式-切换器 -->
+    <div class="toggle">
+      <button data-toggle-id="subscribe-mail">
+        Show the subscription form
+      </button>
+      <form id="subscribe-mail" hidden>
+        Your mail: <input type="email">
+      </form>
+    </div><hr>
+
+    <!-- 在DOM中，带有id的元素会被直接声明进window -->
+    <div id="container">
+      <button>sss</button>
+    </div><hr>
+    <script>
+      container.onclick = event => {
+        alert(event.target)
+      }
+    </script>
+
+    <!-- 创建一个点击可以显示/隐藏子节点的树形菜单 -->
+    <ul class="tree" id="tree">
+      <li>Animals
+        <ul>
+          <li>Mammals
+            <ul>
+              <li>Cows</li>
+              <li>Donkeys</li>
+              <li>Dogs</li>
+              <li>Tigers</li>
+            </ul>
+          </li>
+          <li>Other
+            <ul>
+              <li>Snakes</li>
+              <li>Birds</li>
+              <li>Lizards</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Fishes
+        <ul>
+          <li>Aquarium
+            <ul>
+              <li>Guppy</li>
+              <li>Angelfish</li>
+            </ul>
+          </li>
+          <li>Sea
+            <ul>
+              <li>Sea trout</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+
+    <script src="./event.js"></script>
+  </body>
+</html>
