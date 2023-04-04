@@ -116,6 +116,6 @@ function* pseudoRandom(seeds) {
   }
 }
 let tmp = pseudoRandom(1);
-console.log(tmp.next());
-console.log(tmp.next());
-console.log(tmp.next());
+// console.log(tmp.next());
+// console.log(tmp.next());
+// console.log(tmp.next());
