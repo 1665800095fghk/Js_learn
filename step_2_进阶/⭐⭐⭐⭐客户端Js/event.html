@@ -7,11 +7,18 @@
     <title>Document</title>
     <style>
       .tree span:hover {
-      font-weight: bold;
-    }
-    .tree span {
-      cursor: pointer;
-    }
+        font-weight: bold;
+      }
+      .tree span {
+        cursor: pointer;
+      }
+      .selected {
+        background: #0f0;
+      }
+
+      li {
+        cursor: pointer;
+      }
     </style>
   </head>
   <body>
@@ -20,40 +27,44 @@
       <button data-action="save">Save</button>
       <button data-action="load">Load</button>
       <button data-action="search">Search</button>
-    </div><hr>
+    </div>
+    <hr />
 
     <!-- 行为模式-计数器 -->
     <div class="counters">
       <input type="button" value="0" data-counter />
       <input type="button" value="0" data-counter />
       <input type="button" value="0" data-counter />
-    </div><hr>
+    </div>
+    <hr />
 
     <!-- 行为模式-切换器 -->
     <div class="toggle">
       <button data-toggle-id="subscribe-mail">
         Show the subscription form
       </button>
-      <form id="subscribe-mail" hidden>
-        Your mail: <input type="email">
-      </form>
-    </div><hr>
+      <form id="subscribe-mail" hidden>Your mail: <input type="email" /></form>
+    </div>
+    <hr />
 
     <!-- 在DOM中，带有id的元素会被直接声明进window -->
     <div id="container">
       <button>sss</button>
-    </div><hr>
+    </div>
+    <hr />
     <script>
-      container.onclick = event => {
-        alert(event.target)
-      }
+      container.onclick = (event) => {
+        alert(event.target);
+      };
     </script>
 
     <!-- 创建一个点击可以显示/隐藏子节点的树形菜单 -->
     <ul class="tree" id="tree">
-      <li>Animals
+      <li>
+        Animals
         <ul>
-          <li>Mammals
+          <li>
+            Mammals
             <ul>
               <li>Cows</li>
               <li>Donkeys</li>
@@ -61,7 +72,8 @@
               <li>Tigers</li>
             </ul>
           </li>
-          <li>Other
+          <li>
+            Other
             <ul>
               <li>Snakes</li>
               <li>Birds</li>
@@ -70,15 +82,18 @@
           </li>
         </ul>
       </li>
-      <li>Fishes
+      <li>
+        Fishes
         <ul>
-          <li>Aquarium
+          <li>
+            Aquarium
             <ul>
               <li>Guppy</li>
               <li>Angelfish</li>
             </ul>
           </li>
-          <li>Sea
+          <li>
+            Sea
             <ul>
               <li>Sea trout</li>
             </ul>
@@ -86,7 +101,45 @@
         </ul>
       </li>
     </ul>
+    <hr />
 
+    <!-- 阻止浏览器行为 -->
+    <a href="/" onclick="return false">Click here</a> or
+    <a href="/" onclick="event.preventDefault()">here</a>
+    <hr />
+
+    <!-- 文档范围上下文菜单，与局部上下文菜单 -->
+    <p>右击此处显示文档上下文菜单</p>
+    <button id="elem">右击此处显示局部上下文菜单</button>
+    <hr />
+
+    <!-- 事件构造器 -->
+    <button id="elem_1" onclick="alert('sadas')">AutoClick</button>
+
+    <!-- 事件构造器_冒泡 -->
+    <h1 id="elem_2">Hello from the script!</h1>
+    <hr />
+
+    <!-- 自定义 -->
+    <button>Click</button>
+    <hr />
+
+    <!-- 创建一个可以选择元素的列表，例如在文件管理器中 -->
+    <ul id="highlight-list">
+      <li>list item</li>
+      <li>list item</li>
+      <li>list item</li>
+      <li>list item</li>
+      <li>list item</li>
+    </ul>
+
+    <!--  -->
+    <form name="one">
+      <input name="one" type="text">
+      <select name="" id="">
+        <option value="1">1</option>
+      </select>
+    </form>
 
     <script src="./event.js"></script>
   </body>

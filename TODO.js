@@ -1,8 +1,6 @@
-// step_3
-// TODO 浏览器
-// TODO 现代 Js 教程 高阶部分
+// TODO 创建自己的 vscode 工作流
 
-// step_4
+// step_3
 // TODO node.js
 // TODO jsconfig
 // TODO eslint
@@ -11,7 +9,7 @@
 // TODO jQuery源码
 // TODO axios源码
 
-// step_5(待定)
+// step_4(待定)
 // TODO 人月神话
 // TODO 算法与数据结构
 // TODO 软件工程
