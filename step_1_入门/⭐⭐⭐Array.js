@@ -6,7 +6,6 @@ let arr_2 = [2,3,4];
 // console.log(arr.reduce(((x,y) => x+y), 0));
 // console.log(arr_2.reduceRight((x,y) => Math.pow(y,x)));
 
-
 // let a = Object.create([]);
 // // let a = {};
 // let i = 0;
