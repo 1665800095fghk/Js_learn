@@ -5,8 +5,6 @@
 // TODO 每日挑战 https://soyaine.github.io/JavaScript30/
 
 // step_3
-// TODO node.js
-// TODO     事件循环
 // TODO eslint
 // TODO TypeScript
 // TODO jQuery源码
