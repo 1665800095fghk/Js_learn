@@ -5,11 +5,15 @@
 // TODO 每日挑战 https://soyaine.github.io/JavaScript30/
 
 // step_3
-// TODO eslint
-// TODO TypeScript
+// TODO 封装 log
+// TODO vite or webpack
+// TODO sass
 // TODO jQuery源码
-// TODO axios源码
+// TODO 重构 easy_develop
 // TODO Rust
+
+// step_3.5
+// TODO 青训
 
 // step_4(待定)
 // TODO 人月神话

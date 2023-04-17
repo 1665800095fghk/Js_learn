@@ -1,0 +1,16 @@
+{  
+  "include": [
+    "./step_3_发散/Typescript/*"
+  ],
+  "exclude": [
+    "./**/*.js"
+  ],
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true
+  }
+}

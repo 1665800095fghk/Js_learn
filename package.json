@@ -1,10 +1,14 @@
 {
   "name": "js_lx",
   "version": "1.0.0",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "jsdom": "^21.1.1"
+    "jsdom": "^21.1.1",
+    "sync-request": "^6.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.37.0"
   }
 }
