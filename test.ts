@@ -1,2 +1,3 @@
-type ArrayItemType<T> = T extends Array<infer ElementType> ? ElementType : never;
-type Res = ArrayItemType<[string, number]>;
+type IsAny<T> = 0 extends 1 & T ? true : false;
+
+type Res = IsAny<unknown>;
